@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="/assets/logo.png">
+    <img :src="logoImg">
     <br />
     <img src="/static/404.png">
     <br />
@@ -17,6 +17,11 @@
 import HelloChild from './hello/hello'
 export default {
   name: 'App',
+  data () {
+    return {
+      logoImg: require('assets/logo.png')
+    }
+  },
   components: {
     HelloChild
   }
