@@ -5,8 +5,8 @@
     <img src="/static/404.png">
     <br />
     <a href="/news.html">news Page</a>
-    <a href="/hello">Hello 子页面</a>
-    <a href="/global/hello">全局Hello组件</a>
+    <a href="/#/hello">Hello 子页面</a>
+    <a href="/#/global/hello">全局Hello组件</a>
     <!--可以直接使用也可以如上面一般来使用-->
     <hello-child>Hello 子页面</hello-child>
     <router-view/>

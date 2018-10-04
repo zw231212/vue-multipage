@@ -7,7 +7,7 @@ import GlobalHello from '@/components/HelloWorld'
 Vue.use(Router)
 console.log(HelloWorld)
 export default new Router({
-  'mode': 'history',
+  // 'mode': 'history',
   routes: [
     {
       path: '/',
