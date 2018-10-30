@@ -37,6 +37,7 @@ module.exports = {
       'common': resolve('src/components'), //不起作用
       'assets':resolve('src/assets'),
       'static': resolve('static'),
+      'api': resolve('src/api'),
     }
   },
   module: {
