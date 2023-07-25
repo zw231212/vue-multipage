@@ -17,14 +17,14 @@ npm run dev
 # build for production with minification
 npm run build
 
-#测试build的运行文件：
+# 测试build的运行文件：
 npm run server
 这里是会起一个轻量级的http-server来对dist目录下的文件进行服务
 
 ```
 
 
-##静态文件引用
+## 静态文件引用
 
 static目录放外部的引用
 assets目录放项目本身的引用
@@ -42,7 +42,7 @@ vue在打包时只会将static下面的图片保留，assets目录下的图片�
 然后<img :src="imgUrl">去展示即可。
 
 
-##router不起作用的问题处理
+## router不起作用的问题处理
 
 可以使用hash来处理，多页应用之中的路由处理交给了http-server，所以使用hash来完成请求
 也就是如果在当前页面上在子组件之间切换，可以使用如下的形式：
